@@ -38,7 +38,7 @@ header {
 h1 {
   color: white;
   font-size: 7vw;
-  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+  text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -57,7 +57,7 @@ nav {
 
 nav ul {
   margin: 0;
-  padding:0;
+  padding: 0;
   list-style: none;
   display: flex;
 }
@@ -74,9 +74,13 @@ li.logo {
   max-width: 0;
   overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all 0.5s;
   font-weight: 600;
   font-size: 30px;
+}
+
+.fixed-nav li.logo {
+  max-width: 100%;
 }
 
 li.logo a {
